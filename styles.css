@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    /* Other section styles as needed */
+}
+
+.hero .hero-text {
+    width: 50%; /* Adjust width as needed */
+    text-align: left; /* Align text to the left */
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.hero .highlight {
+    color: red; /* Text color set to red */
+}
+
+.hero .agency-name {
+    font-size: 2.5em; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Example spacing */
+}
+
+
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e84141;
+}
+
+.what-we-do {
+    background: #ffffff;
+}
+
+.red-heading {
+    color: red; /* Text color set to red */
+}
+
+.what-we-do .images img {
+    max-width: 30%;
+    margin: 0 10px;
+}
+
+.why-choose-us {
+    background: #f8f8f8;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.growth {
+    text-align: center; /* Center align text within the growth section */
+}
+
+.growth-metrics {
+    display: flex;
+    justify-content: center; /* Center align flex items horizontally */
+    flex-wrap: wrap; /* Wrap items to next line if they exceed container width */
+    gap: 20px; /* Gap between metric boxes */
+    margin-top: 20px; /* Margin on top for spacing */
+}
+
+
+
+.metric {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.metric .icon {
+    font-size: 2em;
+}
+
+.metric .value {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.metric.box {
+    width: 230px; /* Adjust width as needed */
+    height: 130px; /* Set height to match width for square shape */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    flex: 0 0 auto; 
+    border: 2px solid #ccc;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    cursor: pointer;
+    text-align: left;
+    
+}
+
+.metric.box:hover {
+    background-color: #ed2f2f; /* Lighter background color on hover */
+}
+
+.metric.box.red-background {
+    background-color: red;
+    color: white; /* Text color contrast for red background */
+}
+.clients-feedback {
+    background: #f8f8f8;
+}
+
+.feedback {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback blockquote {
+    font-style: italic;
+}
+
+.feedback cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.our-projects {
+    background: #ffffff;
+}
+
+.projects-content {
+    display: flex;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: flex-end; /* Align items to the bottom */
+    padding-top: 20px; /* Example padding */
+}
+
+.red-background {
+    background-color: red; /* Define red background color */
+    color: rgb(0, 0, 0); /* Set text color to contrast with red */
+}
+
+/clients-feedback {
+    /* Your existing section styles */
+}
+
+.clients-feedback .highlight {
+    color: red; /* Text color set to red */
+}
+
+.clients-feedback .position {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+}
+color: red; /* Text color set to red */
+}
+
+
+
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    padding: 20px 0; /* Padding for top and bottom */
+    color: #fff; /* Text color for footer content */
+}
+
+.footer-red-box {
+    background-color: red; /* Red background color for the box */
+    padding: 20px; /* Padding inside the red box */
+}
+
+.logos .logo-img {
+    width: 200px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.contact-us-btn {
+    text-align: center; /* Center align the button */
+}
+
+.contact-form {
+    display: none; /* Initially hide the contact form */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 400px; /* Adjust width as needed */
+    width: 90%;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.close-btn {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close-btn:hover {
+    background-color: #ccc;
+}
+
+
